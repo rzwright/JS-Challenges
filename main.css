@@ -211,8 +211,10 @@ a:hover {
 
 	#nav {
 		flex-direction: column;
+		-ms-flex-direction: column;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
+		-webkit-box-orient: vertical
 	}
 	
 	h1 {
